@@ -13,7 +13,7 @@ class HeadComponent extends Component {
             <div >
                 <header className="header">
                     <nav>
-                        < div className="th">
+                        < div className="head">
                             Farmer Assistance System
                          </div >
                     </nav>

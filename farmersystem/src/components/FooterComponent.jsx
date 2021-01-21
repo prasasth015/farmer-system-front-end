@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class FootComponent extends Component {
+class FooterComponent extends Component {
     constructor(props) {
         super(props)
 
@@ -13,11 +13,11 @@ class FootComponent extends Component {
         return (
             <div>
                 <footer className="footer">
-                    <div className="text-muted"><span >All Rights Reserved 2021</span></div>
+                    <div className="text-muted"><span className="foot" >All Rights Reserved 2021</span></div>
                 </footer>
             </div>
         )
     }
 }
 
-export default FootComponent
+export default FooterComponent

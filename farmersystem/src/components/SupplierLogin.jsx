@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import SupplierService from '../service/SupplierService'
+// import SupplierService from '../service/SupplierService'
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./CreateSupplier.css";
@@ -14,7 +14,7 @@ class SupplierLogin extends Component {
             password: ""
 
         }
-        this.verifyLogin = this.verifyLogin.bind(this);
+        
     }
    
     render() {
@@ -57,7 +57,7 @@ class SupplierLogin extends Component {
               )} */}
             </div>
             <div className="createAccount">
-              <button className="button" onClick={this.saveSupplier}><Link to="/supplierQuote">Log-In</Link></button>
+              <button className="button" onClick={this.saveSupplier}><Link to="/supplierQuote" className="link">Log-In</Link></button>
               <small><Link to="/add-supplier/:supplierUserName">New Supplier? - Sign-Up</Link></small>
 
             </div>

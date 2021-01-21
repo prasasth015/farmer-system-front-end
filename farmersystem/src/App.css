@@ -62,12 +62,16 @@
   color: white;
 }
 
-.th {
+.head {
   margin-top: 0.5%;
   color: white;
   font-size: 30px;
   margin-left: 15px;
   font-family: monospace;
+}
+
+.foot{
+  color: white;
 }
 
 .text-muted {
