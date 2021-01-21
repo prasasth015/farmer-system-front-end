@@ -19,7 +19,7 @@ class SupplierQuoteComponent extends Component {
     }
 
     // step 3
-   
+
     render() {
         return (
             <div className="body">
@@ -58,8 +58,8 @@ class SupplierQuoteComponent extends Component {
                                                 value={this.state.product} onChange={this.changeProductHandler}/>
                                         </div> */}
                                     <div className="button">
-                                    <button className="btn btn-success"  onClick={this.saveOrUpdateQuote}>Save</button>
-                                    <button className="btn btn-danger" onClick={this.cancel.bind(this)} style={{ marginLeft: "10px" }}>Cancel</button>
+                                        <button className="btn btn-success" onClick={this.saveOrUpdateQuote}>Save</button>
+                                        <button className="btn btn-danger" onClick={this.cancel.bind(this)} style={{ marginLeft: "10px" }}>Cancel</button>
                                     </div>
                                 </form>
                             </div>

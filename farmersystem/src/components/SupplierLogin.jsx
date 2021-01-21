@@ -5,25 +5,22 @@ import "./CreateSupplier.css";
 
 
 class SupplierLogin extends Component {
-    constructor(props) {
-        super(props)
+  constructor(props) {
+    super(props)
 
-        this.state = {
-            supplierUserName: "",
-            password: ""
-
-        }
+    this.state = {
+      supplierUserName: "",
+      password: ""
 
     }
-   
-    render() {
-        return (
-            <div className="login-wrap">
-              <div className="login_wrapper">
-                
-                <div> <h1 className="title">Log-In</h1></div>
-                            <form  >
-                               
+  }
+
+  render() {
+    return (
+      <div className="login-wrap">
+        <div className="login_wrapper">
+          <div> <h1 className="title">Log-In</h1></div>
+          <form>
             <div className="supplierUserName">
               <label htmlFor="supplierUserName">UserName</label>
               <input
@@ -60,10 +57,10 @@ class SupplierLogin extends Component {
               <small><Link to="/add-supplier/:supplierUserName">New Supplier? - Sign-Up</Link></small>
 
             </div>
-                            </form>
-                        </div>
-                    </div>
-        );
-    }
+          </form>
+        </div>
+      </div>
+    );
+  }
 }
 export default SupplierLogin;

@@ -15,8 +15,6 @@ class UpdateQuoteComponent extends Component {
         }
         this.updatePrice = this.updatePrice.bind(this);
     }
-
-
     render() {
         return (
 
@@ -34,7 +32,7 @@ class UpdateQuoteComponent extends Component {
                                         <input placeholder="User Name" name="userName" className="form-control"
                                             value={this.state.userName} onChange={this.changeUserNameHandler} />
                                     </div>
-                                    
+
                                     <div className="form-group">
                                         <label> Product Name: </label>
                                         <input placeholder="Product Name" name="ProductName" className="form-control"
@@ -61,8 +59,6 @@ class UpdateQuoteComponent extends Component {
                     </div>
                 </div>
             </div>
-      
-
         )
     }
 }

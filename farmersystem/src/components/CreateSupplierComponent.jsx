@@ -113,9 +113,8 @@ class CreateSupplierComponent extends Component {
 
       <div className="wrap">
         <div className="form_wrapper">
-          
           <div> <h1 className="title">Sign-Up</h1></div>
-          <form  onSubmit={this.handleSubmit} noValidate>
+          <form onSubmit={this.handleSubmit} noValidate>
             <div className="name">
               <label htmlFor="firstName">Supplier Name</label>
               <input
@@ -215,13 +214,10 @@ class CreateSupplierComponent extends Component {
             <div className="createAccount">
               <button className="button" ><Link to="/supplierLogin" className="link">Create Account</Link></button>
               <small><Link to="/supplierLogin">Already Have an Account? - Log-in</Link></small>
-
             </div>
           </form>
         </div>
       </div>
-      
-
     )
   }
 }
