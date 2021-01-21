@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import SupplierService from '../service/SupplierService';
 import "./CreateSupplier.css";
 import { Link } from "react-router-dom";
 

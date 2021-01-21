@@ -8,7 +8,11 @@ class SupplierService {
     //     return axios.get(SUPPLIER_API_BASE_URL);
     // }
 
-    createSupplier(supplier){
+    login(farmerUserName,farmerPassword){
+        return axios.get(SUPPLIER_API_BASE_URL, +'/'+farmerUserName+"/"+farmerPassword);
+    }
+
+    createSupplier(supplier) {
         return axios.post(SUPPLIER_API_BASE_URL, supplier);
     }
 

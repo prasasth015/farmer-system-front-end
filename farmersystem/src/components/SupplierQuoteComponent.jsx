@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import SupplierQuoteService from '../service/SupplierQuoteService';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./SupplierQuote.css";
 

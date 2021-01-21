@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import SupplierQuoteService from '../service/SupplierQuoteService';
-
 
 class UpdateQuoteComponent extends Component {
     constructor(props) {
