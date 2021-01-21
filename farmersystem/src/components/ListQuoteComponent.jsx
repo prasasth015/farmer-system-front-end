@@ -10,9 +10,7 @@ class ListQuoteComponent extends Component {
         this.state = {
             quote: []
         }
-
     }
-
 
     render() {
         return (
