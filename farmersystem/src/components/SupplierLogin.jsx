@@ -14,7 +14,7 @@ class SupplierLogin extends Component {
             password: ""
 
         }
-        this.verifyLogin = this.verifyLogin.bind(this);
+
     }
    
     render() {

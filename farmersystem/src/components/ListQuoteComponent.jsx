@@ -10,9 +10,7 @@ class ListQuoteComponent extends Component {
         this.state = {
             quote: []
         }
-        this.addQuote = this.addQuote.bind(this);
-        this.editPrice = this.editPrice.bind(this);
-        this.deleteQuote = this.deleteQuote.bind(this);
+
     }
 
 
