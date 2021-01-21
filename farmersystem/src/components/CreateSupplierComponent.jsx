@@ -19,11 +19,6 @@ const passwordRegex = RegExp(
 const formValid = ({ formErrors, ...rest }) => {
   let valid = true;
 
-  // validate form errors being empty
-  Object.values(formErrors).forEach(val => {
-    val.length > 0 && (valid = false);
-  });
-
   // validate the form was filled out
   Object.values(rest).forEach(val => {
     val === null && (valid = false);
@@ -112,16 +107,14 @@ class CreateSupplierComponent extends Component {
     this.setState({ formErrors, [name]: value }, () => console.log(this.state));
   };
 
-
   render() {
     const { formErrors } = this.state;
     return (
 
       <div className="wrap">
         <div className="form_wrapper">
-          
           <div> <h1 className="title">Sign-Up</h1></div>
-          <form  onSubmit={this.handleSubmit} noValidate>
+          <form onSubmit={this.handleSubmit} noValidate>
             <div className="name">
               <label htmlFor="firstName">Supplier Name</label>
               <input
@@ -221,13 +214,10 @@ class CreateSupplierComponent extends Component {
             <div className="createAccount">
               <button className="button" ><Link to="/supplierLogin" className="link">Create Account</Link></button>
               <small><Link to="/supplierLogin">Already Have an Account? - Log-in</Link></small>
-
             </div>
           </form>
         </div>
       </div>
-      
-
     )
   }
 }

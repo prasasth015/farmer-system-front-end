@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import SupplierQuoteService from '../service/SupplierQuoteService';
-
-
+// import SupplierQuoteService from '../service/SupplierQuoteService';
 class UpdateQuoteComponent extends Component {
     constructor(props) {
         super(props)
@@ -18,10 +16,8 @@ class UpdateQuoteComponent extends Component {
         this.updatePrice = this.updatePrice.bind(this);
     }
 
-
     render() {
         return (
-
             // <div className="fo">
             <div>
                 <br></br>
@@ -36,7 +32,7 @@ class UpdateQuoteComponent extends Component {
                                         <input placeholder="User Name" name="userName" className="form-control"
                                             value={this.state.userName} onChange={this.changeUserNameHandler} />
                                     </div>
-                                    
+
                                     <div className="form-group">
                                         <label> Product Name: </label>
                                         <input placeholder="Product Name" name="ProductName" className="form-control"
@@ -63,8 +59,6 @@ class UpdateQuoteComponent extends Component {
                     </div>
                 </div>
             </div>
-      
-
         )
     }
 }

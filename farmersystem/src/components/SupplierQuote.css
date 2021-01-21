@@ -1,6 +1,5 @@
-.container{
+.container {
     margin-top: auto;
-    
 }
 
 .quote {
@@ -8,14 +7,12 @@
     text-align: center;
 }
 
-
-.body{
+.body {
     width: 1000px;
     height: 500px;
     background-image: url("../Images/reg_background.jpg");
     background-repeat: no-repeat;
     display: flex;
-
     margin-left: 45px;
     margin-bottom: auto;
     margin-top: 80px;
@@ -26,41 +23,39 @@
     background-color: #ffffff;
 }
 
-.container{
+.container {
     margin-bottom: 150px;
 }
 
-.button{
+.button {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.box_value{
+.box_value {
     padding: 2px 2px;
-    
 }
 
-.userName{
+.userName {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.Product{
+.Product {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.quantity{
+.quantity {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-
-.quotePrice{
+.quotePrice {
     width: 100%;
     display: flex;
     flex-direction: column;
