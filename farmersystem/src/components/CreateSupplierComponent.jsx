@@ -213,7 +213,7 @@ class CreateSupplierComponent extends Component {
             </div>
 
             <div className="createAccount">
-              <button className="button" ><Link to="/supplierLogin" color="white">Create Account</Link></button>
+              <button className="button" ><Link to="/supplierLogin" className="link">Create Account</Link></button>
               <small><Link to="/supplierLogin">Already Have an Account? - Log-in</Link></small>
 
             </div>

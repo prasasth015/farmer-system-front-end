@@ -162,6 +162,10 @@ input.error {
     align-items: center;
 }
 
+.link{
+    color: white;
+}
+
 .createAccount button {
     background-color: #8B008B;
     color: #fff;
